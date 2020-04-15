@@ -27,22 +27,10 @@ public class Order {
     @Expose
     private boolean complete;
 
-    /**
-     * No args constructor for use in serialization
-     * 
-     */
     public Order() {
+
     }
 
-    /**
-     * 
-     * @param petId
-     * @param quantity
-     * @param id
-     * @param shipDate
-     * @param complete
-     * @param status
-     */
     public Order(int id, int petId, int quantity, String shipDate, String status, boolean complete) {
         super();
         this.id = id;
